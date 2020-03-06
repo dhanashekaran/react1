@@ -9,6 +9,10 @@ export default class Todoitem extends Component {
         <i class="material-icons edit-symbol" onClick={handleEdit}>
           edit
         </i>
+         &nbsp;
+        &nbsp;
+ 
+
         <i class="material-icons delete-symbol" onClick={handleDelete}>
           delete
         </i>
