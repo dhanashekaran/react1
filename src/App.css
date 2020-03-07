@@ -74,6 +74,7 @@ body {
 .Todoitem {
   display: flex;
   flex-wrap:wrap;
+  word-wrap: break-word;
   height:200px;
   justify-content: space-around;
   align-items: center;
