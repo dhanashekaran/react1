@@ -6,9 +6,8 @@ export default class Todolist extends Component {
     const { items, clearList, handleDelete, handleEdit } = this.props;
     return (
       <div className="Todolist">
+        <h1>List Below...</h1>
         <ul>
-          <h1>List Below...</h1>
-          <hr />
           {items.map(item => {
             return (
               <Todoitem
